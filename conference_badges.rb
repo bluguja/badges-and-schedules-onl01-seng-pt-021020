@@ -6,11 +6,11 @@ def badge_maker(str)
   
 end
 
-def batch_badge_creator(arr)
-  new_arr = []
-  arr.each do |name| 
-  new_arr<< badge_maker(name)
-  
+  def batch_badge_creator(arr)
+    new_arr = []
+    arr.each do |name| 
+    new_arr<< badge_maker(name)
+    
 end
   new_arr
 end
