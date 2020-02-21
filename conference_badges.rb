@@ -7,6 +7,8 @@ def badge_maker(str)
 end
 
 def batch_badge_creator(attendees)
+  new_arr = []
+  attendees.each do 
   
 end
 
