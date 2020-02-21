@@ -11,7 +11,7 @@ end
     arr.each do |name| 
     new_arr<< badge_maker(name)
     
-end
+  end
   new_arr
 end
 
