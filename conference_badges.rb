@@ -1,9 +1,8 @@
-require 'pry'
-# Write your code here.
+exit!# Write your code here.
 
 def badge_maker(str)
-  binding.pry
-  "Hello, my name is #{str}"
+  
+  return "Hello, my name is #{str}"
   
 end
 
