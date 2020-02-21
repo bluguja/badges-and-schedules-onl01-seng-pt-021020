@@ -2,7 +2,7 @@
 
 def badge_maker(str)
   
-  return "Hello, my name is #{str}"
+  return "Hello, my name is #{str}."
   
 end
 
