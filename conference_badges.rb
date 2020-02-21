@@ -1,4 +1,4 @@
-exit!# Write your code here.
+# Write your code here.
 
 def badge_maker(str)
   
@@ -16,6 +16,7 @@ end
 end
 
 def assign_rooms(arr_of_names)
+  
   counter=0 
   arr_of_names.map do |attendee|
   "Hello, #{attendee}! You'll be assigned to room #{counter += 1}!"
@@ -25,6 +26,7 @@ def assign_rooms(arr_of_names)
 end
 
 def printer(arr_of_attendees)
+  
   batch_badge_creator(arr_of_attendees).each{|phrase| puts  phrase}
   assign_rooms(arr_of_attendees).each {|phrase| puts phrase}
 end
